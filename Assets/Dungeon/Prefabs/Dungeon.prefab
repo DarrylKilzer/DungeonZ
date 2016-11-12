@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012029783968}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012029783968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010389272830}
+  - 114: {fileID: 114000012859980096}
+  m_Layer: 0
+  m_Name: Dungeon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010389272830
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012029783968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000012859980096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012029783968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 798dfe09e9c4b604082dbf21586e9b89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dan_1: {fileID: 1000011076520808, guid: 9351f46cbb330ef44b0fb3f06d5ab5cd, type: 2}
+  dan_2: {fileID: 1000011876063146, guid: d00cd1f2f2c011844a3cbeb635319251, type: 2}
+  dan_3: {fileID: 1000013697710292, guid: a9b2cd286eef37f42bdb82be64ba5660, type: 2}
+  dan_4: {fileID: 1000013733860450, guid: c4d8482f1743b0548bb32efb3479fa18, type: 2}
+  dan_5: {fileID: 1000014009932900, guid: 89287c65797eae84bba657d3bd1bd02d, type: 2}
+  dan_6: {fileID: 1000013523170404, guid: 61592401dff687645be5b98dfaf6d150, type: 2}
+  dan_7: {fileID: 1000011425925458, guid: 4a0c5f70f894191478a803b20bfccbc6, type: 2}
+  dan_8: {fileID: 1000012523356156, guid: 54a1d1c76c2e4a6479e20743f6c4c1fd, type: 2}
+  dan_9: {fileID: 1000012374043786, guid: 84ded36fe77d636498cd78238e729161, type: 2}
+  dan_10: {fileID: 1000010916080514, guid: 00764e504d4ac104ab3578aa934c2079, type: 2}
+  dan_11: {fileID: 1000010270383506, guid: f02e3bf483046f942b6c229432327cc3, type: 2}
+  dan_12: {fileID: 1000013367761092, guid: a4006467cc69be748bf7c8b1353950e1, type: 2}
+  dan_13: {fileID: 1000010474448636, guid: bc9991a2c123d034cb403ee4fa0a9c10, type: 2}
+  dan_14: {fileID: 1000012992827832, guid: e8ef1a3dc5abe6c48aece2a26c1f3781, type: 2}
+  around:
+  - {fileID: 1000011060268390, guid: 733ffb614edb81d4f97739dcbc86b173, type: 2}
+  - {fileID: 1000011240637866, guid: fb0f47c3dad5c3e4ea59aa65d3ff1b0e, type: 2}
+  - {fileID: 1000010214930722, guid: 7eead495c5cec8f45a3b5845d7d9e348, type: 2}
+  - {fileID: 1000013844624040, guid: 8361f10002236034093f74865e3dbea7, type: 2}
+  ground:
+  - {fileID: 1000011060268390, guid: 733ffb614edb81d4f97739dcbc86b173, type: 2}
+  - {fileID: 1000011240637866, guid: fb0f47c3dad5c3e4ea59aa65d3ff1b0e, type: 2}
+  - {fileID: 1000010214930722, guid: 7eead495c5cec8f45a3b5845d7d9e348, type: 2}
+  - {fileID: 1000013844624040, guid: 8361f10002236034093f74865e3dbea7, type: 2}
+  - {fileID: 1000012972310736, guid: 31e184f858ed36947a7b3ac79551d6e4, type: 2}
+  - {fileID: 1000014059084096, guid: 82251d6a4120b184f8f42c1e392d692d, type: 2}
+  - {fileID: 1000011583999162, guid: f5fdff44d575bce40b107cbdebed71bd, type: 2}
+  - {fileID: 1000014135812728, guid: f9c618427ac257c4fbecf38cace35148, type: 2}
+  - {fileID: 1000012806208698, guid: 01d3836e58631c54684785e5ab0a39c9, type: 2}
+  - {fileID: 1000012806208698, guid: 01d3836e58631c54684785e5ab0a39c9, type: 2}
+  random:
+  - {fileID: 1000010418228812, guid: 2108302f14221ee4983d79ff1787c5c7, type: 2}
+  - {fileID: 1000014127938484, guid: 6b4e31efdb0eaf041bba236f9d119356, type: 2}
+  - {fileID: 1000013329432180, guid: be258df6c392d7541b065670ed4e4583, type: 2}
+  - {fileID: 1000010538277632, guid: 41edf223b135c0c468bb5faea4be8694, type: 2}
+  SIZE_X: 32
+  SIZE_Y: 32
+  iRND: 0
+  density: 10
+  miniMapBackTex: {fileID: 2800000, guid: 606890609a99fc34580673804dd35260, type: 3}
+  miniMapArrowTex: {fileID: 2800000, guid: 2b1d1f41d8a94ae4d9e6e8046b4037ad, type: 3}

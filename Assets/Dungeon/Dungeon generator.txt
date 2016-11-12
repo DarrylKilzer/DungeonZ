@@ -1,0 +1,46 @@
+                              
+                    Dungeon generator.
+
+Dungeon generator - intended for automatic generation of dungeons in the game.
+
+it can be easily integrated in any game project. 
+A pseudo-random generation of the maze (knowing the number, you can re-create the necessary schema)
+
+It comes with a few examples of how this can be done:
+
+- Import package dungeon_generator
+- Import package standart assets Characters
+- Open scene DungeonDemo or DungeonGameDemo
+
+Create new game:
+
+- Import package dungeon_generator
+- Import package standart assets Characters
+- New Scene
+- Insert to scene ThirdPersonController
+- Insert to scene Dungeon.prefab
+- Move Main Camera to ThirdPersonController
+- Configure Main Camera
+- Insert script ThirdPersonDungeonDemo to ThirdPersonController
+- setup Dungeon from scene to ThirdPersonDungeonDemo field
+- Run game
+
+Dungeon.prefab has several configuration fields:
+
+dan_1 ... dan_14 - 3d dungeon tile set 
+
+around - an array of objects at the foot of the walls
+ground - an array of objects inside the dungeon rooms
+random - an array of flat objects on the floor inside the room
+
+SIZE_X - dungeon width in segment (16..64)
+SIZE_Y - dungeon height in segment (16..64)
+IRND - dungeon number (0...1000000000)
+Density -  density of rooms in dungeon (1..10)
+
+void generator() - create new dungeon
+
+Vector3 getEntry() - returns the entry coordinates in the dungeon
+
+Vector3 getExit() -  returns the exit coordinates in the dungeon
+
